@@ -4,7 +4,7 @@ description: A list of TranslocoService language-related API methods and their u
 
 # Language API
 
-**`getDefaultLang()`**
+## **`getDefaultLang()`**
 
 Returns the default language of the application.
 
@@ -20,7 +20,7 @@ export class AppComponent {
 
 ***
 
-**`setDefaultLang()`**
+## **`setDefaultLang()`**
 
 Sets the default language.
 
@@ -35,7 +35,7 @@ export class AppComponent {
 
 ***
 
-**`getActiveLang()`**
+## **`getActiveLang()`**
 
 Returns the current active language.
 
@@ -51,7 +51,7 @@ export class AppComponent {
 
 ***
 
-**`setActiveLang()`**
+## **`setActiveLang()`**
 
 Sets the active language for the application.
 
@@ -66,7 +66,7 @@ export class AppComponent {
 
 ***
 
-**`getAvailableLangs()`**
+## **`getAvailableLangs()`**
 
 Retrieves the list of available languages.
 
@@ -82,7 +82,7 @@ export class AppComponent {
 
 ***
 
-**`setFallbackLangForMissingTranslation()`**
+## **`setFallbackLangForMissingTranslation()`**
 
 Defines a fallback language to be used when a translation key is missing for the active language.
 
@@ -104,7 +104,7 @@ If you provide an array, only the first language is used. Fallback translations 
 
 ***
 
-**`setAvailableLangs()`**
+## **`setAvailableLangs()`**
 
 Sets the list of available languages.
 
@@ -122,7 +122,7 @@ export class AppComponent {
 
 ***
 
-**`langChanges$`**
+## **`langChanges$`**
 
 An observable that emits whenever the active language changes.
 
@@ -144,7 +144,7 @@ export class AppComponent {
 
 ***
 
-**`load()`**
+## **`load()`**
 
 Loads the specified language and adds it to the service.
 
