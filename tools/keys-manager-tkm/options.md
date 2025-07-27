@@ -82,17 +82,17 @@ Supported replaceable placeholders:
 
 Replaces the contents of a translation file if it already exists. Defaults to `false` (merges files instead).
 
-#### **`--removeExtraKeys -r`**
+#### **`--remove-extra-keys -R`**&#x20;
 
 Removes extra keys from existing translation files. Defaults to `false`.
 
-#### **`--addMissingKeys -a`**
+#### **`--add-missing-keys -a`**
 
 Adds missing keys identified by the `detective`. Defaults to `false`.
 
 ### **Find Command**
 
-#### **`--emitErrorOnExtraKeys -e`**
+#### **`--emit-error-on-extra-keys -e`**
 
 It emits an error and exits the process if extra keys are found. Defaults to `false`.
 
